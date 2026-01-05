@@ -1,4 +1,4 @@
-//FAQ Logic
+//Faq Logic
       document.addEventListener("DOMContentLoaded", () => {
         const f_Items = document.querySelectorAll(".f-item");
 
@@ -13,8 +13,13 @@
               }
             });
 
-            // toggle current item
+            // toggle Current item
             item.classList.toggle("active");
           });
         });
       });
+// Dynamic year For footer
+const yearSpan = document.getElementById("current-year");
+if (yearSpan) {
+    yearSpan.textContent = new Date().getFullYear();
+}
