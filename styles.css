@@ -257,7 +257,7 @@
       .f-icon {
         font-size: 1.4rem;
         color: var(--primary-green);
-        transition: transform 0.3s ease; /* rotation */
+        transition: transform 0.3s ease; /* rotations */
       }
 
       .f-body {
@@ -275,4 +275,33 @@
 
       .f-item.active .f-icon {
         transform: rotate(45deg);
+      }
+      /* Privacy stylings */
+      .fw-700 {
+        font-weight: 700;
+      }
+
+      .p-content h3 {
+        color: var(--text-primary);
+        margin-bottom: 15px;
+      }
+
+      .p-content p,
+      .p-content li {
+        color: var(--text-secondary);
+        line-height: 1.7;
+        margin-bottom: 15px;
+      }
+
+      .p-content ul {
+        padding-left: 20px;
+        margin-bottom: 25px;
+      }
+
+      /* Footer stylings */
+      .custom-f {
+        background-color: #023b08; 
+        color: #d1d5db; 
+        padding: 8px 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
       }
